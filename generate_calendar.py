@@ -37,5 +37,5 @@ for match in data.get('results', []):
 
     calendar.events.add(event)
 
-with open('betri_deildin.ics', 'w', encoding='utf-8') as f:
+with open('b68_2deild.ics', 'w', encoding='utf-8') as f:
     f.write(str(calendar))
