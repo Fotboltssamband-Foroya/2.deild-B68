@@ -2,7 +2,7 @@ name: Update 2. deild Calendar
 
 on:
   schedule:
-    - cron: '0 */3 * * *'  # Every 3 hours
+    - cron: '*/15 * * * *'
   workflow_dispatch:
 
 permissions:
